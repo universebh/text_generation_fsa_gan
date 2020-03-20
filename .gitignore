@@ -1,0 +1,83 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*#
+.*~
+.*#
+
+# Other configs #
+#################
+.idea
+**/.idea
+.vscode
+**/.vscode
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+__pycache__
+**/__pycache__
+
+
+# Installation/Package Dir #
+############################
+packages
+data
+**/data
+
+# TextGan-PyTorc logs/savings #
+###############################
+log
+**/log
+pretrain
+**pretrain
+save
+**/save
+dataset
+**/dataset
+
+# Text generation project #
+###########################
+model
+**/model
+models
+**/models
+local
+**/local
+locals
+**/locals
